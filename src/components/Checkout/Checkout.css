@@ -1,0 +1,95 @@
+.myForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    margin: 0px;
+    font-size: 1rem;
+    font-family: sans-serif;
+    padding: 15px;
+    margin: 10px;
+
+}
+h1{
+    font-size: larger;
+}
+
+.form-input{
+    text-align: center;
+    margin: 20px;
+    height: 40px;
+    width: 400px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #e6e6e6, #ffffff);
+    box-shadow:  25px -25px 50px #e0e0e0,
+                 -25px 25px 50px #ffffff;
+    font-family: 'Jost', sans-serif;
+}
+
+
+button {
+    justify-content: center;
+    background-color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+.loader {
+    position: relative;
+    display: flex;
+  }
+  
+  .btn-6 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+    background-color: #000;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 100%;
+    font-weight: 900;
+    line-height: 1.5;
+    margin: 0;
+    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .btn-6:disabled {
+    cursor: default;
+  }
+  .btn-6:-moz-focusring {
+    outline: auto;
+  }
+  .btn-6 svg {
+    display: block;
+    vertical-align: middle;
+  }
+  .btn-6 [hidden] {
+    display: none;
+  }
+  .btn-6 {
+    border-radius: 10px;
+    border-width: 2px;
+    overflow: hidden;
+    padding: 0.8rem 3rem;
+    position: relative;
+  }
+  .btn-6 span {
+    mix-blend-mode: difference;
+  }
+  .btn-6:after,
+  .btn-6:before {
+    background: #fff;
+    content: "";
+    inset: 0;
+    position: absolute;
+    transform: translateX(var(--progress, -100%));
+    transition: transform 0.2s ease;
+  }
+  .btn-6:after {
+    transform: translateX(var(--progress, 100%));
+    z-index: -1;
+  }
+  .btn-6:hover {
+    --progress: 0;
+  }

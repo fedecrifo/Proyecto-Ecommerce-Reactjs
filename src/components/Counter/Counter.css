@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contador {
+    
+    display: flex;
+    flex-direction:row;
+    justify-content:  center;
+    background-color: #FFFFFF;
+    
+
+    }
+    
+    .elements {
+        margin:10px;
+        text-decoration: none;
+    }
