@@ -11,12 +11,11 @@
     left : 50%;
     bottom : 0;
     right : 0;
-    top : 50%;
+    top : 25%;
     width: 48px;
     height: 48px;
     border-radius: 50%;
-    display: inline-block;
-    position: relative;
+
     border: 3px solid;
     border-color: rgb(7, 6, 6) rgb(14, 13, 13) transparent transparent;
     box-sizing: border-box;

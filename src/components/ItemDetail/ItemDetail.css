@@ -28,11 +28,11 @@
     justify-content: center;
     width: 100%;
 }
-.finalizarcompra{
+a{
     color: black;
     text-decoration: none;
 }
-link:hover{
+a:hover{
 
     font-weight: bold;
 }

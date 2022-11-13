@@ -117,7 +117,7 @@ import { useNavigate } from "react-router-dom"
             />
           </div>
           <div className="buttons-order">
-            <button class="btn-6" onClick={createOrder}><span>Generar pedido</span></button>
+            <button class="button-checkout" onClick={createOrder}><span>Generar pedido</span></button>
     
           </div>
         </div>

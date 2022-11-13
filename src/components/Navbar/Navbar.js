@@ -8,7 +8,7 @@ export default function Navbar() {
         <div>
             <header>
                 <div className="img-logo">
-                    <img src={tools} alt="logo" />
+                <Link to='/'> <img src={tools} alt="logo" /> </Link>
                 </div>
                 <nav>
                     <ul>

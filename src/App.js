@@ -9,6 +9,7 @@ import Cart from "./components/Cart/Cart"
 import Checkout from './components/Checkout/Checkout'
 import { NotificationProvider } from "./notification/NotificationService.js";
 
+/* https://fedecrifo.github.io/Proyecto-Ecommerce-Reactjs/ */
 
 function App() {
 

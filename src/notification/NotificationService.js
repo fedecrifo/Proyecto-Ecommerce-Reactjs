@@ -3,14 +3,19 @@ import '../notification/NotificationService.css'
 
 const Notification = ({message, severity}) => {
     const notificationStyle = {
+        position: 'absolute',
+        bottom: 40,
+        widht: 'auto',
+        height: 'auto',
+        padding: '10px 20px 10px 20px',
 
     }
 
     if (message === '') return
     
     return (
-        <div className="container">
-            <div className="animation">
+        <div className="container" >
+            <div className="animation" style={notificationStyle}>
             {message}
             </div>
         </div>    

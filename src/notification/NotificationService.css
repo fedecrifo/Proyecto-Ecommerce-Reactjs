@@ -5,11 +5,6 @@
     align-items: flex-end;
 }
 .animation{
-    position: absolute;
-    bottom: 40px;
-    width: auto;
-    height: auto;
-    padding: 10px 20px 10px 20px;
     background-color:#76C2AF;
     border-radius: 5px;
     animation: cdxczxcxz 1s ease 0s 1 normal forwards;

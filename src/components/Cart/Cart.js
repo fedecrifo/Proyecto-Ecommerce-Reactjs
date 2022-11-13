@@ -28,11 +28,13 @@ return (
            
       
         <h1 className="title-products">Total: ${getTotal()}</h1>
-        <button className="button-cart" onClick={clearCart}>Eliminar todo</button>
-        <div>
-        <Link to='/checkout'>
-            <button className="button-cart" onClick={Checkout}>Checkout</button>
-        </Link>
+            <div className="buttons">
+                <button className="button-cart" onClick={clearCart}>Eliminar todo</button>
+                <div>
+                <Link to='/checkout'>
+                    <button className="button-cart" onClick={Checkout}>Checkout</button>
+                </Link>
+            </div>
     </div>
 </div>
         

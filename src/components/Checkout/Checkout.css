@@ -34,62 +34,63 @@ button {
     font-family: 'Jost', sans-serif;
 }
 
-.loader {
-    position: relative;
-    display: flex;
-  }
-  
-  .btn-6 {
-    -webkit-tap-highlight-color: transparent;
-    -webkit-appearance: button;
-    background-color: #000;
-    background-image: none;
-    color: #fff;
-    cursor: pointer;
-    font-size: 100%;
-    font-weight: 900;
-    line-height: 1.5;
-    margin: 0;
-    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
-    padding: 0;
-    text-transform: uppercase;
-  }
-  .btn-6:disabled {
-    cursor: default;
-  }
-  .btn-6:-moz-focusring {
-    outline: auto;
-  }
-  .btn-6 svg {
-    display: block;
-    vertical-align: middle;
-  }
-  .btn-6 [hidden] {
-    display: none;
-  }
-  .btn-6 {
-    border-radius: 10px;
-    border-width: 2px;
-    overflow: hidden;
-    padding: 0.8rem 3rem;
-    position: relative;
-  }
-  .btn-6 span {
-    mix-blend-mode: difference;
-  }
-  .btn-6:after,
-  .btn-6:before {
-    background: #fff;
-    content: "";
-    inset: 0;
-    position: absolute;
-    transform: translateX(var(--progress, -100%));
-    transition: transform 0.2s ease;
-  }
-  .btn-6:after {
-    transform: translateX(var(--progress, 100%));
-    z-index: -1;
-  }
-  .btn-6:hover {
-    --progress: 0;
-  }
+.button-checkout {
+  margin:0px 10px 0px 10px;
+  padding: 5px 15px;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  background-color: aliceblue;
+  box-shadow: 0 0 20px 8px #d0d0d0;
+  transition: all ease 0.3s;
+  animation: myAnim 1s ease 0s 1 normal forwards;
+}
+.button-checkout:hover{
+  box-shadow: 3px 8px 60px 28px #76C2AF;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}

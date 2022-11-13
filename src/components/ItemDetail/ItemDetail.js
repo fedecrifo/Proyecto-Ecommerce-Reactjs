@@ -40,7 +40,7 @@ const ItemDetail = ({id, img, name, category, price, description, stock }) => {
             <p className="price"> ${price}</p>
             <p className= "description ">{description}</p> 
             { goToCart
-                ? <Link className='finalizarcompra' to='/cart'>Terminar Compra</Link>
+                ? <Link to='/cart'>Terminar Compra</Link>
                 :<ItemCount onAdd={onAdd} stock={stock} initial={quantityAdded }/> 
             }
     

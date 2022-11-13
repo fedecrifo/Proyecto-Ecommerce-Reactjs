@@ -10,7 +10,8 @@ const ItemCart = ({id, img, name, price, count}) => {
 
 return (    
     <div className='containerCart'>
-        <img src={img} alt={name}/>
+
+
         <h1 className="name">{name}</h1>
         <p className="price">Precio U: ${price}</p>
         <p className="SubTotal">Subtotal: ${count * price}</p>
